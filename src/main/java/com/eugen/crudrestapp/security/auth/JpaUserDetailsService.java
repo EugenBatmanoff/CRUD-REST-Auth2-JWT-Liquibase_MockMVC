@@ -1,6 +1,5 @@
 package com.eugen.crudrestapp.security.auth;
 
-
 import com.eugen.crudrestapp.security.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

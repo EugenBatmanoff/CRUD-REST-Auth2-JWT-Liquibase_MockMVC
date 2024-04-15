@@ -33,4 +33,5 @@ rsa:
 logging:
   level:
     org:
-      springframework: INFO
+      springframework: DEBUG
+

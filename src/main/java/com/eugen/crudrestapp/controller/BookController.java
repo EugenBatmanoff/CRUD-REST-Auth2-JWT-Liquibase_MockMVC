@@ -29,7 +29,7 @@ public class BookController {
             }
 
             return new ResponseEntity<>(bookList, HttpStatus.OK);
-        } catch(Exception ex) {
+        } catch (Exception ex) {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -82,6 +82,7 @@ public class BookController {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
     @DeleteMapping("/deleteAllBooks")
     public ResponseEntity<HttpStatus> deleteAllBooks() {
         try {
